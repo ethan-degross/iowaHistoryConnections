@@ -1,0 +1,538 @@
+a/*
+Theme Name: Responsive Child
+Theme URI: Description: Responsive Child Theme for Iowa History Connections
+Author URI: 
+Template: responsive
+Version: 1.0.0
+Tags: light,dark,two-columns,right-sidebar,responsive-layout,accessibility-ready
+Text Domain: responsive-child
+*/
+
+/* Hide unwanted divs */
+.breadcrumb-list, .post-meta, .copyright, .scroll-top, .powered, #featured, .shiftnav-main-toggle-content a {
+    display:none;
+}
+
+#lesson_plan_nav{
+	width: 500px;
+	height:100px;
+}
+
+
+dl.gallery-item{
+	margin:15px;
+}
+
+.page-template-full-width-page-php .gallery-columns-2 .gallery-item, .page-template-landing-page.php .gallery-columns-2 .gallery-item{
+	max-width:425px;
+}
+
+.page-id-844 #wrapper{
+padding: 0 10px 10px;
+
+}
+
+
+/* Menu customization
+-------------------------------------------------------------- */
+.menu a:visited {
+    background-color:#3c557c;
+}
+
+.menu a {
+    text-shadow:none;
+    border-color:#fff;
+    font-family:'helvetica';
+    background-color:#3c557c;
+    text-transform:uppercase;
+    font-size:16px;
+}
+
+.menu .current_page_item a,.menu .current-menu-item a,.front-page .menu .current_page_item a {
+    background-color:#fff;
+    color:#3c557c;
+}
+
+.menu {
+    background-image:none;
+    background-color:transparent;
+    width:inherit;
+    margin-bottom:20px;
+}
+
+.menu a:hover {
+    background-color:#fff;
+    background-image:none;
+    color:#3c557c;
+    text-shadow:none;
+}
+
+/* Color customization for links and content within post entries
+-------------------------------------------------------------------*/
+.post-entry a {
+    color:#96BFCF;
+}
+
+.post-entry a:hover {
+    color:#dedede;
+}
+
+.post-entry {
+    font-family:serif;
+}
+
+/* Link customization for Tag Cloud
+-------------------------------------------------------------------*/
+/* unvisited link */
+.tagcloud a:link {
+    color:#fff;
+}
+
+/* visited link */
+.tagcloud a:visited {
+    color:#fff;
+}
+
+/* mouse over link */
+.tagcloud a:hover {
+    color:#96BFCF;
+}
+
+/* selected link */
+.tagcloud a:active {
+    color:#96BFCF;
+}
+
+/* Color customization for Search Error 
+-------------------------------------------------------------------*/
+.title-404 {
+    color:#fff;
+}
+
+/* Link customization for Post's Main Headers
+-------------------------------------------------------------------------------------------------------------- */
+/* unvisited link */
+.entry-title a:link,post-title a:link {
+    color:#fff;
+    text-transform: uppercase;
+
+}
+
+/* visited link */
+.entry-title a:visited,post-title a:visited {
+    color:#fff;
+    text-transform: uppercase;
+
+    
+}
+
+/* mouse over link */
+.entry-title a:hover,post-title a:hover {
+    color:#96BFCF;
+    text-transform: uppercase;
+
+}
+
+/* selected link */
+.entry-title a:active,post-title a:active {
+    color:#96BFCF;
+    text-transform: uppercase;
+
+}
+
+/* Link customization for 	Home Page's: 	"More", 
+				Post's: 	"read more", "edit", Author, tags, time posted 
+				Error page's: 	"home"
+				All Pages:	top right "submit" and "help"
+-------------------------------------------------------------------------------------------------------------- */
+/* unvisited link */
+.upw-more a:link,.post-edit a:link,.author a,.post-data a,.post-meta a,#content-search a,.top-menu li a {
+    color:#fff;
+}
+
+/* visited link */
+.upw-more a:visited,.post-edit a:visited,.author a:visited,.post-data a:visited,.post-meta a:visited,#content-search a:visited,.top-menu li a:visited {
+    color:#fff;
+}
+
+/* mouse over link */
+.upw-more a:hover,.post-edit a:hover,.author a:hover,.post-data a:hover,.post-meta a:hover,#content-search a:hover,.top-menu li a:hover {
+    color:#96BFCF;
+}
+
+/* selected link */
+.upw-more a:active,.post-edit a:active,.author a:active,.post-data a:active,.post-meta a:active,#content-search a:active,.top-menu li a:active {
+    color:#96BFCF;
+}
+
+/*Bold Text and Header's color customization 
+-------------------------------------------------------------------*/
+
+
+/*Whole page background and text color customization 
+-------------------------------------------------------------------*/
+body {
+    background-image:url(http://thestudio.uiowa.edu/iowa_history_connections/wp-content/uploads/2014/07/CornfieldwithBuilding_5a.jpg);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:20% 20%;
+    color:#fff;
+    font-family:sans-serif;
+}
+
+.home.page.page-id-296.page-template.page-template-full-width-page-php.custom-background.front-page {
+    background-attachment:fixed;
+    background-position:20% 60%;
+}
+
+.logoUI {
+    float:right;
+    position:relative;
+    z-index:1;
+    top:-30px;
+}
+
+/* Color customization for Widgets - More general selectors
+--------------------------------------------------------------------------------------------------*/
+.widget-wrapper,#wrapper {
+    background-color:#3c557c;
+    border-style:solid;
+    border-width:5px;
+}
+
+#widgets .textwidget a,#footer a {
+    color:#fff;
+}
+
+#widgets .textwidget a:hover,#footer a:hover {
+    color:gray;
+}
+
+#home_widget_1 .textwidget a:hover {
+    color:#3c557c;
+}
+
+#home_widget_1 .textwidget a {
+}
+
+.home-widgets .widget-wrapper {
+    text-shadow:none;
+    border-style:none;
+    color:#fff;
+    overflow:auto;
+    resize:inherit;
+}
+
+/*Home widgets Customization - More specific selectors
+-------------------------------------------------------------------*/
+#home_widget_1 .widget-wrapper {
+    border-style:solid;
+    border-width:5px;
+    background-color:transparent;
+    margin-top:65px;
+    z-index:1;
+}
+
+#home_widget_2 .widget-wrapper,#home_widget_3 .widget-wrapper {
+    background-color:#3c557c;
+    border-style:solid;
+    border-width:5px;
+    min-height:200px;
+}
+
+#home_widget_4 .widget-wrapper {
+    background-color:#3c557c;
+    opacity:.8;
+    font-family:'montserrat';
+    text-align:left;
+    padding-left:4%;
+    padding-top:0;
+    padding-bottom:0;
+    margin-bottom:0;
+    z-index:1;
+    position:relative;
+    top:-20px;
+}
+
+#home_widget_5 .widget-wrapper {
+    background-color:transparent;
+    border:none;
+    position:relative;
+    bottom:-100px;
+}
+
+#container {
+    top:-100px;
+    position:relative;
+}
+
+/* Footer Customization
+----------------------------------------------------------------------------------------*/
+#footer .widget-wrapper {
+    border-style:none;
+    background-color:transparent;
+}
+
+#footer.clearfix {
+    position:relative;
+    top:-120px;
+}
+
+/* Slide show Customization
+-------------------------------------------------------------------
+.slideshow_description_box{
+	margin-bottom:60px;
+	height: 60px;
+}*/
+/* Slideshow banner color customization
+-------------------------------------------------------------------
+.slideshow_container .slideshow_view .slideshow_slide.slideshow_slide_image .slideshow_description_box {
+	background-color:#3c557c;
+	opacity: .8;
+}*/
+/* Little square selectors below the slideshow
+-------------------------------------------------------------------*/
+.slideshow_pagination_center {
+    position:relative;
+    z-index:-1;
+    bottom:-35px;
+}
+
+.slideshow_container .slideshow_pagination ul li {
+    margin:0 2px;
+    width:15px;
+    height:15px;
+}
+
+/* Slideshow button customization
+-------------------------------------------------------------------
+.slideshow_container .slideshow_button {
+	margin-left: -40px;
+	margin-right: -40px;
+	height: 40px;
+	width: 19px;
+	background: url('%plugin-url%/images/SlideshowPlugin/light-arrows.png') no-repeat;
+}*/
+/* Customizes the footer text box length (didn't find the text-9 col-300 php to adjust) 
+-------------------------------------------------------------------*/
+#text-9 {
+    width:940px;
+}
+
+#post-60 {
+    padding-left:10px;
+    padding-right:10px;
+}
+
+/*Workshop page specific customizations------------------------------*/
+#vidBox{
+	width:580px;
+	margin-left:auto;
+	margin-right:auto;
+	border: 2px solid #ffffff;
+}
+#workshopBox {
+    float:left;
+    background-color:#fff;
+    border-style:solid;
+    border-width:4px;
+    border-color:#96BFCF;
+    padding:10px;
+    margin-right:10px;
+    color:#3c557c;
+}
+
+#post-425 .entry-title.post-title {
+    display:none;
+}
+
+/*Attempts at making just the Workshop page opaque*/
+.post-425.widget-wrapper {
+    opacity:.8;
+}
+
+/*Mobile CSS - Title adjustment for mobile screens----------------------------------------------------------------------------*/
+@media screen and (max-width: 480px) {
+.main-nav {
+    display:none;
+}
+
+#splashPageSlideShow {
+    display:none;
+}
+
+#home_widget_4 .widget-wrapper {
+    text-align:left;
+    padding-left:12%;
+    padding-top:5px;
+    padding-bottom:5px;
+    margin-bottom:20px;
+    z-index:0;
+    position:relative;
+    top:0;
+}
+
+#text-8 {
+    padding-left:0;
+}
+
+#text-9 {
+    width:auto;
+}
+
+#home_widget_5 {
+    bottom:-100px;
+    position:relative;
+}
+
+#container {
+    top:-100px;
+    position:relative;
+}
+
+.logoUI {
+    float:right;
+    position:relative;
+    z-index:1;
+    top:-200px;
+}
+
+/*very specifically used for styling purposes, mission statement needed line breaks, but mobile doesn't*/
+br {
+    display:none;
+}
+
+#home_widget_5 .widget-wrapper {
+    background-color:transparent;
+    width:100%;
+    border:none;
+}
+
+
+/*Mobile CSS - Hide slideshow*/
+.slideshow_container_slideshow-jquery-image-gallery-custom-styles_2 {
+    display:none;
+}
+
+/*Mobile CSS - On Find page, makes search go to top of page, adjustment for widget to display property
+	adjusts the font size of post's titles*/
+#searchsubmit {
+    margin-top:10px;
+}
+
+#wrapper {
+    display:flex;
+    flex-direction:column-reverse;
+}
+
+.widget-wrapper {
+    min-width:210px;
+}
+
+.entry-title.post-title {
+    font-size:28px;
+}
+
+/*Mobile CSS - Background color for dropdown menu*/
+.js .main-nav .menu li a {
+    float:none;
+    text-align:center;
+    background-color:#fff;
+}
+}
+
+@media screen and (min-width: 481px)
+and (max-width: 980px) {
+body {
+    background-image:none;
+}
+
+#menu-main-nav {
+    display:none;
+}
+
+.main-nav {
+    display:none;
+}
+
+#home_widget_5 .widget-wrapper {
+    background-color:transparent;
+    width:100%;
+    border:none;
+}
+
+/*very specifically used for styling purposes, mission statement needed line breaks, but mobile doesn't*/
+br {
+    display:none;
+}
+
+/*Mobile CSS - Hide slideshow*/
+.slideshow_container.slideshow_container_style-dark {
+    display:none;
+}
+
+/*Mobile CSS - On Find page, makes search go to top of page, adjustment for widget to display property
+	adjusts the font size of post's titles*/
+#wrapper {
+    display:flex;
+    flex-direction:column-reverse;
+}
+
+.widget-wrapper {
+    min-width:450px;
+}
+
+.entry-title.post-title {
+    font-size:28px;
+}
+
+/*Mobile CSS - Background color for dropdown menu*/
+.js .main-nav .menu li a {
+    float:none;
+    text-align:center;
+    background-color:#fff;
+}
+}
+
+/*Anything desktop screen size----------------------------------------------------------------------------*/
+@media screen and (min-width: 981px) {
+.shiftnav-toggle{
+    display:none;
+}
+
+
+#nav-container{
+	text-align:center;
+}
+}
+
+/*revisions May 13, 2015*/
+#text-8 {
+    padding-left:0;
+}
+
+#post-60.post-entry p {
+    font-family:'montserrat'!important;
+}
+
+body.page.page-id-425 #wrapper.clearfix, body.page.page-id-669 #wrapper.clearfix, body.page.page-id-611 #wrapper.clearfix, body.page.page-id-844 #wrapper.clearfix {
+    background-color:#3c557c;
+    border-style:none;
+}
+
+body.blog #wrapper.clearfix, body.page.page-id-60 #wrapper.clearfix, body.page.page-id-587 #wrapper.clearfix, body.page.page-id-348 #wrapper.clearfix, body.page.page-id-308 #wrapper.clearfix, body.page.page-id-775 #wrapper.clearfix, body.page.page-id-562 #wrapper.clearfix, body.page.page-id-755 #wrapper.clearfix {
+    background-color:#3c557c;
+    opacity:.8;
+    border-style:none;
+}
+
+.entry-title.post-title, #lesson-plan-nav{
+	text-transform:uppercase;
+	margin-left:10px;
+}
+
+
+/* Little square selectors below the slideshow
+-did not use because it messes with the description box banner's width and it doesn't look as good
+-------------------------------------------------------------------
+.slideshow_container .slideshow_slide_image {border: 5px solid white;}*/
